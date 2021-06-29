@@ -1,0 +1,22 @@
+.button-icon {
+    padding: 10px;
+    border-radius: 4px;
+    background: var(--white);
+    border: 2px solid var(--purple);
+    text-decoration: none;
+    display: inline-block;
+    
+    transform: scale(1);
+    transition: transform 1s;
+}
+
+.button-icon:hover,
+.button-icon:focus {
+    transform: scale(1.4);
+    transition: transform 500ms;
+    
+}
+
+.button-icon img {
+    vertical-align: middle;
+}
